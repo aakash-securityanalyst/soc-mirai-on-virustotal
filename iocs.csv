@@ -1,0 +1,8 @@
+type,value,source,pyramid_level,notes
+sha256,3f8f9be5f8e8cdffc8bf9b3e5b54d0a906217050803b3e1a37112231f019dd25,MalwareBazaar/VirusTotal,L1 Hash,First seen 2026-11-21 01:48:30 UTC; 10/62 vendors
+filename,2gkdmdn8.exe,VirusTotal,L4 Host artifact,Linux ELF binary carrying a Windows .exe name
+file_size,131.23 KB,VirusTotal,-,UPX-packed
+architecture,ARM ELF,VirusTotal,-,Targets IoT/embedded devices (routers, cameras)
+packer,UPX,VirusTotal,L5 Tool,Packing changes the hash and hides strings
+tag,detect-debug-environment,VirusTotal,L6 TTP,Anti-analysis behaviour
+family,Mirai / Svirtu,VirusTotal,-,Popular threat label trojan.mirai/svirtu; categories trojan + ddos
